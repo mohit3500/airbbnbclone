@@ -6,7 +6,7 @@ import MenuItem from './MenuItem';
 import { useCallback, useState } from 'react';
 import useRegisterModal from '@/app/hooks/useRegisterStore';
 import useLoginModal from '@/app/hooks/useLoginStore';
-import { User } from '@prisma/client';
+import { User } from 'next-auth';
 import { useRouter } from 'next/navigation';
 import { signOut } from 'next-auth/react';
 import useRentModal from '@/app/hooks/useRentStore';
